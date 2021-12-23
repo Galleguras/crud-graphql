@@ -35,7 +35,7 @@ type Mutation{
 
 root = {
   getCourses({ page, limit }) {
-    if (!page) {
+    if (page) {
       console.log('xxx-->', page);
       return courses.slice(page * limit, (page + 1) * limit);
     }
