@@ -31,7 +31,7 @@ type Mutation{
   }
 `);
 
-//template strings
+//template strings ok
 
 root = {
   getCourses({ page, limit }) {
